@@ -1,5 +1,4 @@
-import demo3
-import demo3 as np
+import numpy as np
 
 # demo 1: 打印numpy版本及配置
 print(np.__version__)
@@ -18,8 +17,8 @@ print("z2 memory： %d bytes" % (z2.size * z2.itemsize))
 
 
 # demo 4: 查看numpy函数使用文档
-demo3.info(demo3.zeros)
-demo3.info(demo3.add)
+np.info(np.zeros)
+np.info(np.add)
 
 
 # demo 5: 创建长度为10的向量，并将第5个赋值为“1”
