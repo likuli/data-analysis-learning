@@ -202,13 +202,34 @@ import matplotlib.pyplot as plt
 # plt.show()
 
 # # 直方图
-# Example1
-import numpy as np
-import pandas as pd
+# # Example1
+# import pandas as pd
+#
+# # 乱码
+# plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+# plt.rcParams['axes.unicode_minus'] = False
+#
+# path = "../data/matplotlib/train.csv"
+# train = pd.read_csv(path)
+#
+# # 删除异常数据：缺失年龄的数据
+# train.dropna(subset=['Age'], inplace=True)
+#
+# plt.style.use('ggplot')
+# # 绘图：乘客年龄的频数直方图
+# plt.hist(train.Age,
+#          bins=20,
+#          color='steelblue',
+#          edgecolor='k',
+#          label='直方图')
+#
+# # 去除图形顶部边界和右边界的刻度
+# plt.tick_params(top='off', right='off')
+# # 显示图例
+# plt.legend()
+# plt.show()
 
-# 乱码
-plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
-plt.rcParams['axes.unicode_minus'] = False
+# Example2: 组合直方图
 
 
 
