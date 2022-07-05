@@ -1,3 +1,5 @@
+"""贝叶斯模型做电商评论分类
+"""
 import pandas as pd
 import jieba
 from sklearn.feature_extraction.text import CountVectorizer
