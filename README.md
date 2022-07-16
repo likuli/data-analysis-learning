@@ -48,7 +48,7 @@
 
 ### 分析方法
 
-- 5W2H分析方法
+- [5W2H分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/5W2H%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95.md)
 - 逻辑树分析方法
 - 行业分析方法
 - 多维度拆解分析方法
