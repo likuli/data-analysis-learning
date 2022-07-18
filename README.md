@@ -50,7 +50,7 @@
 
 - [5W2H分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/5w2h_analysis.md)
 - [逻辑树分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/logical_tree_analysis.md)
-- 行业分析方法
+- [行业分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/pest_analysis.md)
 - 多维度拆解分析方法
 - 对比分析方法
 - 假设检验分析方法
