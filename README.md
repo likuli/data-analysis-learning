@@ -8,14 +8,7 @@
 - 指标体系
   - 如何建立指标体系
   - 建立指标体系的常见问题
-- 常见的数据图表
-  - 条形图、堆叠条形图
-  - 折线图、多重折线图
-  - 饼图、环形图
-  - 直方图
-  - 盒须图
-  - 散点图
-  - 甘特图
+- 数据分析常用的数据图表类型
 
 ### 数据分析工具篇
 
@@ -45,12 +38,12 @@
 
 ### 数据分析方法篇
 
-- [5W2H分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/1_5w2h_analysis.md)
-- [逻辑树分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/2_logical_tree_analysis.md)
-- [行业分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/3_pest_analysis.md)
-- [多维度拆解分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/4_multidimensional_analysis.md)
-- [对比分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/5_comparative_analysis.md)
-- [假设检验分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analytical_method/6_hypothetical_test_analysis.md)
+- [5W2H分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/1_5w2h_analysis.md)
+- [逻辑树分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/2_logical_tree_analysis.md)
+- [行业分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/3_pest_analysis.md)
+- [多维度拆解分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/4_multidimensional_analysis.md)
+- [对比分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/5_comparative_analysis.md)
+- [假设检验分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/6_hypothetical_test_analysis.md)
 - 相关分析方法
 - 群组分析方法
 - RFM分析方法
@@ -69,6 +62,8 @@
 - EM聚类算法
 - 随机森林模型
 - AdaBoost算法
+
+### 数据分析统计篇
 
 ### 数据分析实战案例
 
