@@ -2,12 +2,9 @@
 
 ### 数据分析基础篇
 
-- 数据分析学习路线及修炼指南
-- 数据分析要掌握哪些基础概念？
-- 学习资源
-- 指标体系
-  - 如何建立指标体系
-  - 建立指标体系的常见问题
+- 数据分析学习全路线及修炼指南
+- 数据分析必须要掌握哪些基础概念？
+- 如何建立指标体系及建立指标体系的常见问题
 - [必知必会6大图表类型，带你轻松玩转数据可视化](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/visualization_chart.md)
 
 ### 数据分析工具篇
