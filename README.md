@@ -23,6 +23,8 @@
 #### Python
 
 - Numpy
+    - 10分钟快速掌握Numpy
+    - 101道练习，带你玩转Numpy
 - Pandas
 - Matplotlib
 - ...
