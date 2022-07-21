@@ -24,7 +24,7 @@
 
 - Numpy
     - 10分钟快速掌握Numpy
-    - 100道Numpy练习题，带你玩转数据分析
+    - [100道Numpy练习题，带你玩转数据分析](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/python_numpy_exercises.md)
 - Pandas
 - Matplotlib
 - ...
