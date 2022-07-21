@@ -446,7 +446,7 @@ print(softmax(arr))
 #  0.011 0.011 0.007 0.009 0.007 0.005]
 ```
 
-#### 31、如何找到numpy数组的百分位数？
+#### 31、如何找到numpy数组的百分位数？ ☆
 
 ```python
 # 分别找到数组arr的5%和95%的百分位数
@@ -459,7 +459,7 @@ np.percentile(arr, q=[5, 95])
 # array([ 4.95, 94.05])
 ```
 
-#### 32、如何在numpy数组中的随机位置插入值？
+#### 32、如何在numpy数组中的随机位置插入值？ ☆☆
 ```python
 # 在arr数组中随机插入10个值为0的元素
 import numpy as np
@@ -484,7 +484,7 @@ print(arr)
 #
 ```
 
-#### 33、如何在numpy数组中找到缺失值的位置？
+#### 33、如何在numpy数组中找到缺失值的位置？  ☆☆
 
 ```python
 import numpy as np
@@ -501,7 +501,7 @@ print("缺失值的位置：\n", np.where(np.isnan(arr[:, 0])))
 # 缺失值的位置：(array([0]),)
 ```
 
-#### 34、根据两个或多个条件过滤 numpy 数组？
+#### 34、根据两个或多个条件过滤 numpy 数组？  ☆☆☆
 ```python
 import numpy as np
 
@@ -515,7 +515,7 @@ arr[condition]
 #       3.60748419])
 ```
 
-#### 35、如何从 numpy 数组中删除包含缺失值的行？
+#### 35、如何从 numpy 数组中删除包含缺失值的行？  ☆☆☆
 ```python
 import numpy as np
 
