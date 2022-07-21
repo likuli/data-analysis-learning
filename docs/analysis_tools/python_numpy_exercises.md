@@ -259,6 +259,79 @@ print(rand_arr)
 #  [7.94925269 8.19270188 7.18788765]]
 ```
 
+#### 21、如何在 numpy 数组中只打印 3 位小数？
+```python
+rand_arr = np.random.random([5,3])
+
+# Limit to 3 decimal places
+np.set_printoptions(precision=3)
+rand_arr[:4]
+
+# 输出：
+# array([[0.274, 0.045, 0.779],
+#        [0.059, 0.113, 0.144],
+#        [0.365, 0.228, 0.258],
+#        [0.053, 0.718, 0.867]])
+```
+
+#### 22、如同以科学计数法打印 numpy 数组（例如：1e3）？
+```python
+# 重置打印配置
+np.set_printoptions(suppress=False)
+
+# 创建随机数组
+np.random.seed(100)
+rand_arr = np.random.random([3,3])/1e3
+rand_arr
+# 输出：
+# array([[  5.434049e-04,   2.783694e-04,   4.245176e-04],
+#        [  8.447761e-04,   4.718856e-06,   1.215691e-04],
+#        [  6.707491e-04,   8.258528e-04,   1.367066e-04]])
+
+np.set_printoptions(suppress=True, precision=6)  
+rand_arr
+# 输出：
+# array([[ 0.000543,  0.000278,  0.000425],
+#        [ 0.000845,  0.000005,  0.000122],
+#        [ 0.000671,  0.000826,  0.000137]])
+```
+
+#### 23、如何打印指定数量的元素个数？
+```python
+# 限制 numpy 数组打印的输出个数
+np.set_printoptions(threshold=6)
+arr = np.arange(15)
+arr
+# 输出：
+# array([ 0,  1,  2, ..., 12, 13, 14])
+```
+
+#### 24、如何在不截断的情况下打印完整的 numpy 数组？
+```python
+np.set_printoptions(threshold=6)
+arr = np.arange(15)
+
+# Solution
+np.set_printoptions(threshold=np.nan)
+arr
+# 输出：
+# array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14])
+```
+
+#### 25、如何导入既包含数字又包含文本的数据集，并保持文本数据完整？
+
+```python
+import numpy as np
+
+data = np.loadtxt('./data/analysis_tool/iris.csv', delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+data[:3]
+
+# 输出：
+# array([['5.1', '3.5', '1.4', '0.2', 'Iris-setosa'],
+#        ['4.9', '3.0', '1.4', '0.2', 'Iris-setosa'],
+#        ['4.7', '3.2', '1.3', '0.2', 'Iris-setosa']], dtype=object)
+```
 
 
 
