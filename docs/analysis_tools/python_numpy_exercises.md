@@ -543,6 +543,86 @@ arr[np.sum(np.isnan(arr), axis=1) == 0]
 #       [21.29776808, 69.95893388, 92.40549646, 89.07641437, 35.50152517]])
 ```
 
+#### 36、如何找到numpy数组的两列之间的相关性？
+```python
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='float', usecols=[0, 1, 2, 3])
+np.corrcoef(data[:, 0], data[:, 2])[0, 1]
+# 输出：0.8717541573048712
+```
+
+#### 37、如何查找给定数组是否存在空值？
+```python
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='float', usecols=[0, 1, 2, 3])
+np.isnan(data).any()
+
+# 输出： False
+```
+
+#### 38、如何用 0 替换 numpy 数组中的所有缺失值？
+```python
+import numpy as np
+arr = np.random.uniform(0, 100, (5, 5))
+arr[np.random.randint(5, size=5), np.random.randint(5, size=5)] = np.nan
+print(arr)
+# 输出：
+# [[28.082 70.403 20.404 82.829 34.733]
+#  [46.481 93.972    nan 71.838 70.605]
+#  [39.954 86.272    nan 69.019 89.257]
+#  [   nan 30.119 21.723 41.274 91.513]
+#  [32.843 64.951    nan    nan 75.915]]
+
+arr[np.isnan(arr)] = 0
+print(arr)
+
+# 输出：
+# [[28.082 70.403 20.404 82.829 34.733]
+#  [46.481 93.972  0.    71.838 70.605]
+#  [39.954 86.272  0.    69.019 89.257]
+#  [ 0.    30.119 21.723 41.274 91.513]
+#  [32.843 64.951  0.     0.    75.915]]
+```
+
+#### 39、如何在 numpy 数组中查找唯一值的计数？
+```python
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+
+# 将species列转化为数组
+species = np.array([row.tolist()[4] for row in data])
+
+# 去重并计数
+np.unique(species, return_counts=True)
+
+# 输出：
+#(array([b'Iris-setosa', b'Iris-versicolor', b'Iris-virginica'],
+#      dtype='|S15'), array([50, 50, 50], dtype=int64))
+```
+
+#### 40、如何将数字转换为分类（文本）数组？
+```python
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+
+petal_length_bin = np.digitize(data[:, 2].astype('float'), [0, 3, 5, 10])
+label_map = {1: 'small', 2: 'medium', 3: 'large', 4: np.nan}
+petal_length_cat = [label_map[x] for x in petal_length_bin]
+petal_length_cat[:4]
+
+# 输出：
+# ['small', 'small', 'small', 'small']
+```
+
+
+
+
 
 
 
