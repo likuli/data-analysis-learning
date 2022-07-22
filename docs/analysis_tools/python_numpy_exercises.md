@@ -543,7 +543,7 @@ arr[np.sum(np.isnan(arr), axis=1) == 0]
 #       [21.29776808, 69.95893388, 92.40549646, 89.07641437, 35.50152517]])
 ```
 
-#### 36、如何找到numpy数组的两列之间的相关性？
+#### 36、如何找到numpy数组的两列之间的相关性？ ☆☆
 ```python
 import numpy as np
 file = '../../data/analysis_tool/iris.csv'
@@ -552,7 +552,7 @@ np.corrcoef(data[:, 0], data[:, 2])[0, 1]
 # 输出：0.8717541573048712
 ```
 
-#### 37、如何查找给定数组是否存在空值？
+#### 37、如何查找给定数组是否存在空值？ ☆☆
 ```python
 import numpy as np
 file = '../../data/analysis_tool/iris.csv'
@@ -562,7 +562,7 @@ np.isnan(data).any()
 # 输出： False
 ```
 
-#### 38、如何用 0 替换 numpy 数组中的所有缺失值？
+#### 38、如何用 0 替换 numpy 数组中的所有缺失值？ ☆☆
 ```python
 import numpy as np
 arr = np.random.uniform(0, 100, (5, 5))
@@ -586,7 +586,7 @@ print(arr)
 #  [32.843 64.951  0.     0.    75.915]]
 ```
 
-#### 39、如何在 numpy 数组中查找唯一值的计数？
+#### 39、如何在 numpy 数组中查找唯一值的计数？ ☆☆
 ```python
 import numpy as np
 file = '../../data/analysis_tool/iris.csv'
@@ -604,7 +604,7 @@ np.unique(species, return_counts=True)
 #      dtype='|S15'), array([50, 50, 50], dtype=int64))
 ```
 
-#### 40、如何将数字转换为分类（文本）数组？
+#### 40、如何将数字转换为分类（文本）数组？ ☆☆
 ```python
 import numpy as np
 file = '../../data/analysis_tool/iris.csv'
