@@ -652,6 +652,126 @@ print(out)
 # 待补充！！！
 ```
 
+#### 43、待补充！！！！
+
+#### 44、如何按列对二维数组进行排序？
+```python
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+
+# 按第一列数值有小到大进行排序
+print(data[data[:,0].argsort()][:10])
+
+# 输出：
+#[[b'4.3' b'3.0' b'1.1' b'0.1' b'Iris-setosa']
+# [b'4.4' b'3.2' b'1.3' b'0.2' b'Iris-setosa']
+# [b'4.4' b'3.0' b'1.3' b'0.2' b'Iris-setosa']
+# [b'4.4' b'2.9' b'1.4' b'0.2' b'Iris-setosa']
+# [b'4.5' b'2.3' b'1.3' b'0.3' b'Iris-setosa']
+# [b'4.6' b'3.6' b'1.0' b'0.2' b'Iris-setosa']
+# [b'4.6' b'3.1' b'1.5' b'0.2' b'Iris-setosa']
+# [b'4.6' b'3.4' b'1.4' b'0.3' b'Iris-setosa']
+# [b'4.6' b'3.2' b'1.4' b'0.2' b'Iris-setosa']
+# [b'4.7' b'3.2' b'1.3' b'0.2' b'Iris-setosa']]
+```
+
+#### 45、如何在 numpy 数组中找出出现频率最高的元素？
+```python
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+
+# 找出data数组第三列出现频率最高的数值
+vals, counts = np.unique(data[:, 2], return_counts=True)
+print(vals[np.argmax(counts)])
+```
+
+#### 46、如何找到大于给定值的值第一次出现的位置？
+```python
+# 在data数据集的第4列中找到第一次出现大于1.0 的值的位置
+import numpy as np
+file = '../../data/analysis_tool/iris.csv'
+data = np.genfromtxt(file, delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+np.argwhere(data[:, 3].astype(float) > 1.0)[0]
+
+# 输出：
+# array([50])
+```
+
+#### 47、如何将所有大于给定值的值替换为给定的截止值？
+```python
+# 将数组arr中，所有大于30的值替换为30，所有小于10的值替换为10
+import numpy as np
+np.set_printoptions(precision=2)
+np.random.seed(100)
+arr = np.random.uniform(1,50, 20)
+
+# method 1
+np.clip(arr, a_min=10, a_max=30)
+
+# method 2
+print(np.where(arr < 10, 10, np.where(arr > 30, 30, arr)))
+
+# 输出：
+# [27.63 14.64 21.8  30.   10.   10.   30.   30.   10.   29.18 30.   11.25
+#  10.08 10.   11.77 30.   30.   10.   30.   14.43]
+```
+
+# 48、如何从numpy数组中获取top n的值位置？
+```python
+# 获取给定数组a中前5个最大值的位置
+import numpy as np
+np.random.seed(100)
+a = np.random.uniform(1,50, 20)
+
+# Solution:
+print(a.argsort())
+#> [18 7 3 10 15]
+
+# Solution 2:
+np.argpartition(-a, 5)[:5]
+#> [15 10  3  7 18]
+
+# Below methods will get you the values.
+# Method 1:
+a[a.argsort()][-5:]
+
+# Method 2:
+np.sort(a)[-5:]
+
+# Method 3:
+np.partition(a, kth=-5)[-5:]
+
+# Method 4:
+a[np.argpartition(-a, 5)][:5]
+```
+
+#### 49、待补充！！！！
+
+#### 50、如何将数组的数组转换为一维数组？
+```python
+import numpy as np
+arr1 = np.arange(3)
+arr2 = np.arange(3,7)
+arr3 = np.arange(7,10)
+
+array_of_arrays = np.array([arr1, arr2, arr3])
+print('array_of_arrays: ', array_of_arrays)
+# 输出：[array([0, 1, 2]) array([3, 4, 5, 6]) array([7, 8, 9])]
+
+# method 1
+arr_2d = np.array([a for arr in array_of_arrays for a in arr])
+
+# method 2
+arr_2d = np.concatenate(array_of_arrays)
+print(arr_2d)
+# 输出：
+# [0 1 2 3 4 5 6 7 8 9]
+```
 
 
 
