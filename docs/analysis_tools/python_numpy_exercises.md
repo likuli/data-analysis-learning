@@ -721,7 +721,7 @@ print(np.where(arr < 10, 10, np.where(arr > 30, 30, arr)))
 #  10.08 10.   11.77 30.   30.   10.   30.   14.43]
 ```
 
-# 48、如何从numpy数组中获取top n的值位置？
+#### 48、如何从numpy数组中获取top n的值位置？
 ```python
 # 获取给定数组a中前5个最大值的位置
 import numpy as np
