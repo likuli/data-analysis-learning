@@ -773,6 +773,28 @@ print(arr_2d)
 # [0 1 2 3 4 5 6 7 8 9]
 ```
 
+#### 51、待补充！！！！
+
+#### 52、待补充！！！！
+
+#### 53、待补充！！！！
+
+#### 54、如何使用 numpy 对数组中的元素进行排序？
+```python
+import numpy as np
+np.random.seed(10)
+a = np.random.randint(20, size=10)
+print('Array: ', a)
+# 输出：Array:  [ 9  4 15  0 17 16 17  8  9  0]
+
+# Solution
+print(a.argsort())
+print('Array: ', a)
+
+# 输出：
+# [3 9 1 7 0 8 2 5 4 6]
+# Array:  [ 9  4 15  0 17 16 17  8  9  0]
+```
 
 
 
