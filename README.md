@@ -43,7 +43,7 @@
 - [多维度拆解分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/4_multidimensional_analysis.md)
 - [对比分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/5_comparative_analysis.md)
 - [假设检验分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/6_hypothetical_test_analysis.md)
-- 相关分析方法
+- [相关性分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/7_correlation_analysis.md)
 - 群组分析方法
 - RFM分析方法
 - AARRR模型分析方法
