@@ -47,7 +47,7 @@
 - [群组分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/8_group_analysis.md)
 - [RFM分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/9_rfm_analysis.md)
 - [AARRR模型分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/10_aarrr_analysis.md)
-- 漏斗分析方法
+- [漏斗分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/11_funnel_analysis.md)
 
 ### 数据分析算法篇
 
