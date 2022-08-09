@@ -45,7 +45,7 @@
 - [假设检验分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/6_hypothetical_test_analysis.md)
 - [相关性分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/7_correlation_analysis.md)
 - [群组分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/8_group_analysis.md)
-- RFM分析方法
+- [RFM分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/9_rfm_analysis.md)
 - AARRR模型分析方法
 - 漏斗分析方法
 
