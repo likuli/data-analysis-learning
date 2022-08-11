@@ -6,7 +6,7 @@
 - [数据分析必须要掌握哪些基础概念？](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/basic_concepts.md)
 - [如何建立指标体系以及建立指标体系的常见问题](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/indicator_system.md)
 - [必知必会6大图表类型，带你轻松玩转数据可视化](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/visualization_chart.md)
-- 数据分析的6大步骤，强烈建议收藏
+- 基于Python做数据分析全路线地图
 
 ### 数据分析工具篇
 
