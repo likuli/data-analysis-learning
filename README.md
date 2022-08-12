@@ -7,6 +7,7 @@
 - [如何建立指标体系以及建立指标体系的常见问题](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/indicator_system.md)
 - [必知必会6大图表类型，带你轻松玩转数据可视化](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/visualization_chart.md)
 - [基于Python做数据分析全路线地图，建议收藏！！](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/python_data_analysis_map.md)
+- 学习数据挖掘的最佳路径是什么？
 
 ### 数据分析工具篇
 
