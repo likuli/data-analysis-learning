@@ -13,7 +13,7 @@
 
 #### Excel
 
-- Excel做数据分析学习路线全景图，强烈建议收藏！！！
+- [Excel做数据分析学习路线全景图，强烈建议收藏！！！](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/excel_data_analysis_map.md)
 
 #### SQL
 
