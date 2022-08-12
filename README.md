@@ -13,9 +13,7 @@
 
 #### Excel
 
-- 数据处理
-- 数据图表
-- 数据透视表
+- Excel做数据分析学习路线全景图，强烈建议收藏！！！
 
 #### SQL
 
@@ -51,7 +49,7 @@
 - [AARRR模型分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/10_aarrr_analysis.md)
 - [漏斗分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/11_funnel_analysis.md)
 
-### 数据分析算法篇
+### 机器学习算法篇
 
 #### 理论篇
 - 线性回归模型
@@ -73,7 +71,7 @@
 - 信用违约概率预测
 - ...
 
-### 数据分析统计篇
+### 数据分析统计学篇
 
 ### 数据分析实战案例
 
