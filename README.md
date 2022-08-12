@@ -8,7 +8,7 @@
 - [必知必会6大图表类型，带你轻松玩转数据可视化](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/visualization_chart.md)
 - [基于Python做数据分析全路线地图，建议收藏！！](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/python_data_analysis_map.md)
 - [学习数据挖掘的最佳知识清单](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/data_mining_map.md)
-- [学习数据分析必须掌握的统计学知识清单](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/statistics_data_analysis_map.md)
+- [学习数据分析必须掌握的统计学知识](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_fundamentals/statistics_data_analysis_map.md)
 
 ### 数据分析工具篇
 
