@@ -11,29 +11,13 @@
 
 ### 数据分析工具篇
 
-#### Excel
-
 - [Excel做数据分析学习路线全景图，强烈建议收藏！！！](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/excel_data_analysis_map.md)
-
-#### SQL
-
-- 基础查询
-- 高级查询
-
-#### Python
-
-- Numpy
-    - 10分钟快速掌握Numpy
-    - [100道Numpy练习题，带你玩转数据分析](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/python_numpy_exercises.md)
+- 10分钟快速掌握Numpy
+- [100道Numpy练习题，带你玩转数据分析](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/python_numpy_exercises.md)
 - Pandas
 - Matplotlib
 - ...
 
-#### BI工具
-
-- 常见的BI工具
-- 工具安装
-- 工具使用
 
 ### 数据分析方法篇
 
