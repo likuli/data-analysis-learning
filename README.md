@@ -12,13 +12,6 @@
 
 ### 数据分析工具篇
 
-#### 资源篇
-- [Excel轻教程（B站视频教程）](https://space.bilibili.com/308552985/channel/collectiondetail?sid=426567&ctype=0)
-- [Numpy中文文档](https://www.numpy.org.cn/)
-- [Pandas中文文档](https://www.pypandas.cn/)
-- [Matplotlib官方中文文档](https://www.matplotlib.org.cn/)
-- [Python数据科学笔记](https://github.com/donnemartin/data-science-ipython-notebooks)
-
 #### 实战篇
 
 - [Excel做数据分析学习路线全景图，强烈建议收藏！！！](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/excel_data_analysis_map.md)
@@ -28,6 +21,16 @@
 - Matplotlib
 - ...
 
+#### 资源篇
+
+- [菜鸟Python教程](https://www.runoob.com/python3/python3-tutorial.html)
+- [Python最佳实践指南](https://www.runoob.com/python3/python3-tutorial.html)
+- [Python - 100天从新手到大师（GitHub）](https://github.com/jackfrued/Python-100-Days)
+- [Excel轻教程（B站视频教程）](https://space.bilibili.com/308552985/channel/collectiondetail?sid=426567&ctype=0)
+- [Numpy中文文档](https://www.numpy.org.cn/)
+- [Pandas中文文档](https://www.pypandas.cn/)
+- [Matplotlib官方中文文档](https://www.matplotlib.org.cn/)
+- [Python数据科学笔记](https://github.com/donnemartin/data-science-ipython-notebooks)
 
 ### 数据分析方法篇
 
