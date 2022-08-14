@@ -21,16 +21,19 @@
 - Matplotlib
 - ...
 
-#### 资源篇
+#### 学习资源
 
+- [Excel轻教程（B站视频教程）](https://space.bilibili.com/308552985/channel/collectiondetail?sid=426567&ctype=0)
+- [21分钟 MySQL 入门教程](https://www.w3cschool.cn/yfgwtn/6qv34ozt.html)
+- [SQL基础教程（W3CSchool）](https://www.w3school.com.cn/sql/index.asp)
 - [菜鸟Python教程](https://www.runoob.com/python3/python3-tutorial.html)
 - [Python最佳实践指南](https://www.runoob.com/python3/python3-tutorial.html)
 - [Python - 100天从新手到大师（GitHub）](https://github.com/jackfrued/Python-100-Days)
-- [Excel轻教程（B站视频教程）](https://space.bilibili.com/308552985/channel/collectiondetail?sid=426567&ctype=0)
 - [Numpy中文文档](https://www.numpy.org.cn/)
 - [Pandas中文文档](https://www.pypandas.cn/)
 - [Matplotlib官方中文文档](https://www.matplotlib.org.cn/)
 - [Python数据科学笔记](https://github.com/donnemartin/data-science-ipython-notebooks)
+- [Tableau中文教程](https://www.w3cschool.cn/tableau/)
 
 ### 数据分析方法篇
 
