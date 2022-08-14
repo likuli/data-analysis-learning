@@ -33,6 +33,7 @@
 - [Pandas中文文档](https://www.pypandas.cn/)
 - [Matplotlib官方中文文档](https://www.matplotlib.org.cn/)
 - [Python数据科学笔记](https://github.com/donnemartin/data-science-ipython-notebooks)
+- [BeautifulSoup中文文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
 - [Tableau中文教程](https://www.w3cschool.cn/tableau/)
 
 ### 数据分析方法篇
