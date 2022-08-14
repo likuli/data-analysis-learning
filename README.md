@@ -13,7 +13,7 @@
 ### 数据分析工具篇
 
 #### 资源篇
-- [Excel轻教程（B站视频教程）](https://space.bilibili.com/308552985/channel/collectiondetail?sid=426567&ctype=0&_blank)
+- [Excel轻教程（B站视频教程）](https://space.bilibili.com/308552985/channel/collectiondetail?sid=426567&ctype=0)
 - [Numpy中文文档](https://www.numpy.org.cn/)
 - [Pandas中文文档](https://www.pypandas.cn/)
 - [Matplotlib官方中文文档](https://www.matplotlib.org.cn/)
