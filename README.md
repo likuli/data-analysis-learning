@@ -53,7 +53,7 @@
 ### 机器学习算法篇
 
 #### 理论篇
-- 线性回归模型
+- [线性回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/linear_regression.md)
 - 逻辑回归模型
 - 决策树模型
 - 朴素贝叶斯模型
