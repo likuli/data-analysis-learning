@@ -134,6 +134,7 @@ plt.title('exam data')
 plt.show()
 ```
 结果如下：
+
 ![线性回归模型-图3](../../images/ai/linear_regression_3.png)
 
 **step3：划分数据集**
@@ -189,6 +190,7 @@ plt.legend(loc = 2)
 plt.show()
 ```
 效果如下：
+
 ![线性回归模型-图4](../../images/ai/linear_regression_4.png)
 
 **step7：构造线性回归方程**
