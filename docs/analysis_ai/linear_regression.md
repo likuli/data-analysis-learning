@@ -94,6 +94,7 @@ $$
 下面通过构造学生的学习时间和考试成绩的数据，来讲解如何在Python中搭建一元线性回归模型。
 
 **step1：构造数据**
+
 ```python
 from collections import OrderedDict
 import pandas as pd
@@ -120,6 +121,7 @@ print(exam.head())
 ```
 
 **step2：绘制散点图**
+
 利用Matplotlib库绘制散点图，代码如下：
 ```python
 import matplotlib.pyplot as plt
@@ -138,6 +140,7 @@ plt.show()
 ![线性回归模型-图3](../../images/ai/linear_regression_3.png)
 
 **step3：划分数据集**
+
 将样本数据随机划分为训练集和测试集，代码如下：
 ```python
 from sklearn.model_selection import train_test_split
@@ -150,6 +153,7 @@ print(X_train.shape)
 ```
 
 **step4：搭建模型**
+
 引入Scikit-Learn库可快速搭建线性回归模型，代码如下：
 ```python
 X_train = X_train.values.reshape(-1, 1)
@@ -164,6 +168,7 @@ model.fit(X_train, Y_train)
 用fit()函数完成模型搭建，此时的model就是一个搭建好的线性回归模型。
 
 **step5：模型预测**
+
 接着就可以利用搭建好的模型model来预测数据。假设自变量是1.5，那么使用predict()函数就能预测对应的因变量y，代码如下：
 ```python
 print(model.predict([[1.5]]))
@@ -171,6 +176,7 @@ print(model.predict([[1.5]]))
 输出：[31.90969141]
 
 **step6：模型可视化**
+
 将搭建好的模型以可视化的形式展示出来，代码如下:
 ```python
 import matplotlib.pyplot as plt
