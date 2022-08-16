@@ -24,7 +24,7 @@ comments.Content = comments.Content.str.replace('[0-9a-zA-Z.\n]', '')
 jieba.load_userdict(r'../data/bayes/all_words.txt')
 
 # 加载停止词
-with open(r'../data/bayes/mystopwords.txt', encoding='UTF-8') as words:
+with open(r'../../data/bayes/mystopwords.txt', encoding='UTF-8') as words:
     stop_words = [i.strip() for i in words.readlines()]
 
 

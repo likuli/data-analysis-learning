@@ -23,7 +23,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
 
 # step1: 加载数据
-data = pd.read_csv('../data/ai/O2O/L2_Week3.csv')
+data = pd.read_csv('../../data/ai/O2O/L2_Week3.csv')
 # print(data.head())
 # print(data.shape)
 
