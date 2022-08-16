@@ -217,7 +217,9 @@ print('该模型的线性回归方程为y = {} + {} * x'.format(a, b))
 ### R-squared
 要想理解R-squared，得先了解3组概念：整体平方和TSS、残差平方和RSS、解释平方和ESS，它们的关系如下图所示：
 
+
 ![线性回归模型-图5](../../images/ai/linear_regression_5.png)
+
 
 其中 $Y_i$ 为实际值， $Y_{fitted}$ 为预测值， $Y_{mean}$ 为所有散点的平均值， $R^2$ 为R-squared值。
 
