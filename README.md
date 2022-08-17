@@ -52,7 +52,7 @@
 
 ### 机器学习算法篇
 
-#### 理论篇
+#### 算法模型
 - 基础知识
 - [线性回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/linear_regression.md)
 - [逻辑回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/logistic_regression.md)
@@ -65,14 +65,14 @@
 - 随机森林模型
 - AdaBoost算法
 
-#### 知识点
+#### 补充知识
 - 最小二乘法
 - 过拟合与欠拟合
 - ROC曲线与KS曲线
 - 正则化项
 - 损失函数
 
-#### 实战篇
+#### 实战案例
 - [信用卡客户价值预测模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/example/linear_regression_1.md)
 - 线性回归模型预测N天后股票收盘价
 - 用逻辑回归实现鸢尾花数据集分类
