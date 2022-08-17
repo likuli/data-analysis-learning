@@ -14,8 +14,8 @@ $$
 \begin{cases}
 \quad\quad\quad\quad\quad\quad\quad\quad 将(-\infty, +\infty)转变为（0,1） \\
 y=  k_0+k_1x_1+k_2x_2+k_3x_3+... \longrightarrow e^y \longrightarrow \frac{e^y}{1+e^y} \longrightarrow \frac{1}{1+e^{-y}}\\
-\quad\quad\quad\quad\quad\downarrow \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\downarrow \quad\quad\quad\quad\downarrow \quad\quad\quad\quad\quad\downarrow\\
-\quad\quad\quad(-\infty, +\infty) \quad\quad\quad\quad\quad\quad\quad (0, +\infty) \quad(0, 1) \quad\quad\quad(0, 1) \\
+\quad\quad\quad\quad\quad\downarrow \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\downarrow \quad\quad\quad\quad\downarrow \quad\quad\quad\quad\downarrow\\
+\quad\quad\quad(-\infty, +\infty) \quad\quad\quad\quad\quad\quad\quad (0, +\infty) \quad(0, 1) \quad\quad(0, 1) \\
 \end{cases}
 $$
 
