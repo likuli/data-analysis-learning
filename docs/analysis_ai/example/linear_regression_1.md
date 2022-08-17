@@ -59,4 +59,4 @@ print(est.summary())
 
 本案例是在已知客户价值的前提下进行建模，如果在不知道客户价值（即不知道目标变量）的前提下进行建模，则属于非监督式机器学习的范畴，此时不能直接预测客户价值，不过可以利用数据聚类对客户进行分群，后面我们会具体讲解。
 
-完整源码：点这里。
+完整源码：[点这里](https://github.com/likuli/data-analysis-learning/blob/main/code/ai/example/linear-regression-1.py)。
