@@ -53,6 +53,7 @@
 ### 机器学习算法篇
 
 #### 理论篇
+- 基础知识
 - [线性回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/linear_regression.md)
 - 逻辑回归模型
 - 决策树模型
@@ -65,7 +66,7 @@
 - AdaBoost算法
 
 #### 实战篇
-- 客户价值预测模型
+- 信用卡客户价值预测模型
 - 线性回归模型预测N天后股票收盘价
 - 用逻辑回归实现鸢尾花数据集分类
 - 逻辑回归预测泰坦尼克乘客是否能在事故中生还
