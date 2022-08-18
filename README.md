@@ -57,7 +57,7 @@
 - [线性回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/linear_regression.md)
 - [逻辑回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/logistic_regression.md)
 - [决策树模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/decision_tree.md)
-- 朴素贝叶斯模型
+- [朴素贝叶斯模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/naive_bayes.md)
 - K近邻算法（KNN算法）
 - 支持向量机（SVM）
 - K-Means算法
