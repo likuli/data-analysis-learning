@@ -10,6 +10,10 @@
 
 ![苦李公众号](./images/common/qrcode_for_gh_e814b1710bbe_258.jpg)
 
+也可加苦李的个人微信：
+
+![苦李公众号](./images/common/WechatIMG1.jpeg)
+
 
 ### 数据分析基础篇
 
