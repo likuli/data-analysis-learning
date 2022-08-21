@@ -10,15 +10,6 @@
 
 ![苦李公众号](./images/common/qrcode_for_gh_e814b1710bbe_258.jpg)
 
-也可加个人微信：
-
-![苦李](./images/common/wechat.png)
-
-<div>
-    <img src="./images/common/qrcode_for_gh_e814b1710bbe_258.jpg" height="100" />
-    <img src="./images/common/wechat.png" height="100" />
-</div>
-
 
 ### 数据分析基础篇
 
