@@ -71,8 +71,8 @@ $$sign[f_M(x)]=sign\left[\sum^M_{i=1}a_iF_i(x)\right]$$
 
 $$
 sign(x) = \begin{cases}
-\;\;\,1,\quad x > 0 \\
-\;\;\,0,\quad x = 0 \\
+\quad 1,\quad x > 0 \\
+\quad 0,\quad x = 0 \\
 -1, \quad x< 0
 \end{cases}
 $$
