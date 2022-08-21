@@ -12,7 +12,7 @@
 
 也可加苦李的个人微信：
 
-![苦李公众号](./images/common/WechatIMG1.jpeg)
+![苦李公众号](./images/common/wechat.png)
 
 
 ### 数据分析基础篇
