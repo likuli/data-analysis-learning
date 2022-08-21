@@ -6,13 +6,13 @@
 
 如果觉得有用，请分享并star⭐，谢谢！
 
-学习交流，可关注公众号**『苦李』**：
+学习交流，可关注公众号 **『苦李』**：
 
 ![苦李公众号](./images/common/qrcode_for_gh_e814b1710bbe_258.jpg)
 
-也可加苦李的个人微信：
+也可加个人微信：
 
-![苦李公众号](./images/common/wechat.png)
+![苦李](./images/common/wechat.png)
 
 
 ### 数据分析基础篇
