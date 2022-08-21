@@ -78,7 +78,7 @@
 - K-Means算法
 - EM聚类算法
 - [随机森林模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/random_forest.md)
-- AdaBoost算法
+- [AdaBoost算法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/adaboost.md)
 
 #### 补充知识
 - 最小二乘法
