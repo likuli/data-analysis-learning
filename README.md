@@ -49,6 +49,7 @@
 
 ### 数据分析方法篇
 
+#### 分析方法
 - [5W2H分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/1_5w2h_analysis.md)
 - [逻辑树分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/2_logical_tree_analysis.md)
 - [行业分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/3_pest_analysis.md)
@@ -60,6 +61,13 @@
 - [RFM分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/9_rfm_analysis.md)
 - [AARRR模型分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/10_aarrr_analysis.md)
 - [漏斗分析方法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_method/11_funnel_analysis.md)
+
+#### 分析案例
+- [以用户留存为例，聊聊B2C群组分析](https://www.woshipm.com/operate/2656763.html)
+- [手把手教你如何利用RFM模型和数据分析拆解业务问题](https://www.woshipm.com/data-analysis/5215724.html)
+- [AARRR模型案例：利用数据优化渠道投放，并实现用户增长](https://www.woshipm.com/marketing/932886.html)
+- [一文搞懂如何利用AARRR模型实现用户增长](https://www.niaogebiji.com/article-73772-1.html)
+- [案例分析—电商漏斗转化率分析](https://www.woshipm.com/data-analysis/5451093.html)
 
 ### 机器学习算法篇
 
