@@ -73,7 +73,7 @@ $$
 sign(x) = \begin{cases}
 \quad 1,\quad x > 0 \\
 \quad 0,\quad x = 0 \\
--1, \quad x< 0
+\; -1, \quad x< 0
 \end{cases}
 $$
 
