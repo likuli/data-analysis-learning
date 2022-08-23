@@ -1,3 +1,5 @@
+# 这10套练习题，带你快速掌握Pandas
+
 本文翻译整理自[Github][1]。
 
 练习所用数据文件地址：[Pandas练习数据][2]。
@@ -7,15 +9,15 @@
 | 练习题 | 简介  | 数据集 |
 | ---- | ---- | ----|
 | [练习1 - 获取并了解数据][3]	| 分析Chipotle快餐数据	 | chipotle.tsv |
-| 练习2 - 数据过滤与排序	| 分析2012欧洲杯数据	 | Euro2012_stats.csv |
-| 练习3 - 数据分组	| 分析酒类消费数据	 | drinks.csv |
-| 练习4 - Apply函数	| 分析1960 - 2014 美国犯罪数据	 | US_Crime_Rates_1960_2014.csv |
-| 练习5 - 合并数据	| 分析虚拟姓名数据 |题内构造数据 |
-| 练习6 - 统计	| 分析风速数据	 | wind.data |
-| 练习7 - 数据可视化	| 分析泰坦尼克灾难数据	 | train.csv |
-| 练习8 - 创建数据框	| 分析Pokemon数据 |	练习中手动内置的数据 |
-| 练习9 - 时间序列	| 分析Apple公司股价数据	 | Apple_stock.csv |
-| 练习10 - 删除数据	| 分析Iris纸鸢花数据	 | iris.csv |
+| [练习2 - 数据过滤与排序][4]	| 分析2012欧洲杯数据	 | Euro2012_stats.csv |
+| [练习3 - 数据分组][5]	| 分析酒类消费数据	 | drinks.csv |
+| [练习4 - Apply函数][6]	| 分析1960 - 2014 美国犯罪数据	 | US_Crime_Rates_1960_2014.csv |
+| [练习5 - 合并数据][7]	| 分析虚拟姓名数据 |题内构造数据 |
+| [练习6 - 统计][8]	| 分析风速数据	 | wind.data |
+| [练习7 - 数据可视化][9]	| 分析泰坦尼克灾难数据	 | train.csv |
+| [练习8 - 创建数据框][10]	| 分析Pokemon数据 |	练习中手动内置的数据 |
+| [练习9 - 时间序列][11]	| 分析Apple公司股价数据	 | Apple_stock.csv |
+| [练习10 - 删除数据][12]	| 分析Iris纸鸢花数据	 | iris.csv |
 
 ### <a id="demo1">1、获取并了解数据</a>
 
@@ -63,7 +65,7 @@ print(chipo['sub_total'].sum())
 print(chipo['order_id'].nunique())
 ```
 
-### 2、数据过滤与排序
+### <a id="demo2">2、数据过滤与排序</a>
 
 ```python
 path2 = "./data/pandas/Euro2012_stats.csv"
@@ -107,7 +109,7 @@ print(euro.loc[euro.Team.isin(['England', 'Italy', 'Russia']), ['Team', 'Shootin
 
 ```
 
-### 3、数据分组
+### <a id="demo3">3、数据分组</a>
 
 ```python
 path3 = "./data/pandas/drinks.csv"
@@ -132,7 +134,7 @@ print(drinks.groupby('continent').median())
 print(drinks.groupby('continent').spirit_servings.agg(['mean', 'min', 'max']))
 ```
 
-### 4、Apply函数
+### <a id="demo4">4、Apply函数</a>
 
 ```python
 path4 = "./data/pandas/US_Crime_Rates_1960_2014.csv"
@@ -166,7 +168,7 @@ print(crimes)
 print(crime.idxmax())
 ```
 
-### 5、合并数据
+### <a id="demo5">5、合并数据</a>
 ```python
 # step1: 构造测试数据
 raw_data_1 = {
@@ -206,7 +208,7 @@ print(pd.merge(data1, data2, on='subject_id', how='inner'))
 print(pd.merge(data1, data2, on='subject_id', how='outer'))
 ```
 
-### 6、数据统计
+### <a id="demo6">6、数据统计</a>
 
 ```python
 import datetime
@@ -254,7 +256,7 @@ day_stats['std'] = data.std(axis=1)
 print(day_stats.head())
 ```
 
-### 7、数据可视化
+### <a id="demo7">7、数据可视化</a>
 
 ```python
 import matplotlib.pyplot as plt
@@ -299,7 +301,7 @@ plt.title('Fare Payed Histrogram')
 plt.show()
 ```
 
-### 8、创建数据框
+### <a id="demo8">8、创建数据框</a>
 
 ```python
 # step1: 构造数据
@@ -324,7 +326,7 @@ print(pokemon.head())
 print(pokemon.dtypes)
 ```
 
-### 9、时间序列
+### <a id="demo9">9、时间序列</a>
 
 ```python
 path9 = "./data/pandas/Apple_stock.csv"
@@ -369,7 +371,7 @@ fig.set_size_inches(13.5, 9)
 plt.show()
 ```
 
-### 10、删除数据
+### <a id="demo10">10、删除数据</a>
 
 ```python
 path10 = "./data/pandas/iris.csv"
@@ -415,3 +417,12 @@ print(iris.head())
   [1]: https://github.com/guipsamora/pandas_exercises
   [2]: https://github.com/likuli/data-analysis-learning/tree/main/data/pandas
   [3]: #demo1
+  [4]: #demo2
+  [5]: #demo3
+  [6]: #demo4
+  [7]: #demo5
+  [8]: #demo6
+  [9]: #demo7
+  [10]: #demo8
+  [11]: #demo9
+  [12]: #demo10

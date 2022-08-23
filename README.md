@@ -28,7 +28,7 @@
 - [Excel做数据分析学习路线全景图，强烈建议收藏！！！](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/excel_data_analysis_map.md)
 - 10分钟快速掌握Numpy
 - [100道Numpy练习题，带你玩转数据分析](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/python_numpy_exercises.md)
-- Pandas
+- [这10套练习题，带你快速掌握Pandas](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_tools/python_pandas_exercises.md)
 - Matplotlib
 - ...
 
