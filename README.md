@@ -96,6 +96,7 @@
 - 损失函数
 - 欧氏距离
 - 核函数
+- 超平面
 
 #### 实战案例
 - [信用卡客户价值预测模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/example/linear_regression_1.md)
@@ -106,6 +107,7 @@
 - 信用违约概率预测
 - KNN算法实现手写数字识别模型
 - 随机森林模型预测股票涨跌
+- 使用SVM进行乳腺癌检测
 - ...
 
 ### 数据分析统计学篇
