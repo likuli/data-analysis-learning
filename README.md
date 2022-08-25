@@ -95,6 +95,7 @@
 - 均值归一化
 - 损失函数
 - 欧氏距离
+- 核函数
 
 #### 实战案例
 - [信用卡客户价值预测模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/example/linear_regression_1.md)
