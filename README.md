@@ -78,7 +78,7 @@
 - [决策树模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/decision_tree.md)
 - [朴素贝叶斯模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/naive_bayes.md)
 - [K近邻算法（KNN算法）](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/knn_algorithm.md)
-- 支持向量机（SVM）
+- [支持向量机（SVM）](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/svm.md)
 - [K-Means算法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/kmeans_algorithm.md)
 - EM聚类算法
 - [随机森林模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/random_forest.md)
