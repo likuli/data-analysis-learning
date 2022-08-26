@@ -76,7 +76,6 @@
 - [机器学习的数学基础（知乎@pro-am）](https://zhuanlan.zhihu.com/p/25197792)
 
 #### 算法模型
-- 基础知识
 - [线性回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/linear_regression.md)
 - [逻辑回归模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/logistic_regression.md)
 - [决策树模型](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/decision_tree.md)
