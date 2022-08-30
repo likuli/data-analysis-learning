@@ -72,7 +72,7 @@
 ### 机器学习算法篇
 
 #### 基础篇
-- 一文读懂机器学习，人工智能、大数据、自然语言处理全有了...
+- [一文读懂机器学习，人工智能、大数据、自然语言处理全有了...](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/ai_basic.md)
 - [机器学习的数学基础（知乎@pro-am）](https://zhuanlan.zhihu.com/p/25197792)
 
 #### 算法模型
