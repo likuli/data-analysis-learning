@@ -88,7 +88,7 @@
 - [AdaBoost算法](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/adaboost.md)
 
 #### 补充知识
-- 机器学习中N种文本相似度计算方法，欧氏距离、余弦距离...
+- 机器学习：N种计算文本相似度的方法，欧氏距离、余弦值、皮尔逊相关系数...
 - 机器学习中模型的过拟合、欠拟合，到底是怎么回事？
 - 最小二乘法
 - 过拟合与欠拟合
