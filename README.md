@@ -91,7 +91,6 @@
 - [机器学习：N种计算文本相似度的方法，欧氏距离、余弦相似度、皮尔逊相关系数...](https://github.com/likuli/data-analysis-learning/blob/main/docs/analysis_ai/ai_text_similarity.md)
 - 机器学习中模型的过拟合、欠拟合，到底是怎么回事？
 - 最小二乘法
-- 过拟合与欠拟合
 - ROC曲线与KS曲线
 - 信息熵
 - 正则化项
